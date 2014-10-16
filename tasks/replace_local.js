@@ -18,7 +18,7 @@ module.exports = function (grunt) {
   var chalk = require('chalk');
   var Applause = require('applause');
 
-  grunt.registerMultiTask('replace-stage', 'Replace text patterns with applause.', function () {
+  grunt.registerMultiTask('replace_local', 'Replace text patterns with applause.', function () {
 
     // took options
 
